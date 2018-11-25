@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+h3{
+    margin: 0pc;
+}
+p{
+    margin: 0px;
+}
+
+.wrapper{
+    width: 80%; 
+    margin: 0 auto;
+}
+/* Header Styles */
+header{
+    padding: 60px;
+    text-align: center;
+    background:#333;
+    color: #111;
+    background-image: url("car.jpeg"); 
+}
+
+/* Navigation Styles */
+nav{
+    display: flex; 
+    background-color: #111;
+    color: white; 
+    flex-direction: row;
+    padding: 0 50px 0 50px; 
+    justify-content: flex-start;
+}
+ nav a {
+     color: white; 
+     text-decoration: none;
+     padding: 30px;
+ }
+ nav a:hover{
+     color:#333;
+     background-color: white;
+ }
+/* Main Section Styles */
+main{
+    background-color: lightslategray;
+}
+h3{
+    padding: 20px 20px 20px 0;
+}
+/* Footer Styles */
+footer{
+    padding: 30px; 
+    text-align: center;
+    background: #222; 
+    color: white; 
+}
